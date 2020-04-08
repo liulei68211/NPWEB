@@ -1,0 +1,15 @@
+当前时间：2019-12-07 9:53:36
+异常信息：Unable to connect to any of the specified MySQL hosts.
+异常对象：MySql.Data
+调用堆栈：
+在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 NPWEB.SafeDBClasscs.getconMysql() 位置 D:\济钢无人计量项目\内盘app\WEBNP\1125\NPWEB\NPWEB\SafeDBClasscs.cs:行号 26
+   在 NPWEB.SafeDBClasscs.GetDataTable(String sqlstr) 位置 D:\济钢无人计量项目\内盘app\WEBNP\1125\NPWEB\NPWEB\SafeDBClasscs.cs:行号 36
+   在 NPWEB.JGNP.loginSafe(String loginCode, String passWord) 位置 D:\济钢无人计量项目\内盘app\WEBNP\1125\NPWEB\NPWEB\JGNP.asmx.cs:行号 574
+触发方法：Void Open()
+

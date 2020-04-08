@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此文件由 Web 项目的发布/打包过程使用。可以通过编辑此 MSBuild 文件
+自定义此过程的行为。为了解与此相关的更多内容，请访问 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\安全管理标准化项目\webservice\标准化发布</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AipSdk.dll">
+      <publishTime>10/31/2019 17:00:06</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>10/31/2019 17:00:07</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>08/14/2018 08:29:04</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/22/2019 01:06:16</publishTime>
+    </File>
+    <File Include="bin/NPWEB.dll">
+      <publishTime>04/08/2020 10:34:09</publishTime>
+    </File>
+    <File Include="bin/NPWEB.pdb">
+      <publishTime>04/08/2020 10:34:09</publishTime>
+    </File>
+    <File Include="JGNP.asmx">
+      <publishTime>08/05/2019 21:31:06</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/08/2020 10:34:09</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
